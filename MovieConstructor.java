@@ -10,6 +10,7 @@ public class MovieConstructor {
 	 movies.add(new Movie("Anniyan", "Vikram, Sada, Prakash Raj", "Action, Psychological Thriller", "S. Shankar", "17-06-2005", 3.01f, 8.5f));  
 	 movies.add(new Movie("Kaithi", "Karthi, Narain, Arjun Das", "Action, Thriller", "Lokesh Kanagaraj", "25-10-2019", 2.27f, 8.9f));  
 	 int i=1;
+		System.out.println("              MOVIES LIST");
 	 for(Movie movie : movies)
 	 {
 		 System.out.println("MOVIE : "+i++);
@@ -37,11 +38,11 @@ class Movie
 		this.director=director;
 		this.releasing_date=releasing_date;
 		this.duration=duration;
-		this.ratings=ratings;
+	        this.ratings=ratings;
 	}
 	public void display()
 	{
-		System.out.println("Movie-Name : "+movie_name);
+	System.out.println("Movie-Name : "+movie_name);
     	System.out.println("Starring : "+starring);
     	System.out.println("Genres : "+genres);
     	System.out.println("Director : "+director);
